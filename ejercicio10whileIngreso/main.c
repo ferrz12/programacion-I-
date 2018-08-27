@@ -17,26 +17,42 @@ int main()
 	int pn;//promedio de negativos
 	int pp;//promedio de positivos
 	int dif = 0;//diferencia entre las cantidades de numeros positivos y negativos
+	int max = 0;
+	int min = 0;
+	int flag = 0;
     //-----------------------------------------------------------------------------------------
 	while(respuesta == 's'){
 
         printf("Ingrese un numero: ");
         scanf("%d", &num);
 
-		if(num>0)
-		{
+        if(flag == 0){
+
+            max = num;
+            min = num;
+
+            flag = 1;
+        }
+
+        if(num > max){
+            max = num;
+            }
+
+        if(num < min){
+            min = num;
+        }
+
+		if(num > 0){
 			cp++;
 			sp+=num;
-		} else if(num<0)
-                {
-                    cn++;
-                    sn+=num;
-                }else if(num==0)
-                        {
-                            cc++;
-                        }
-		if(num%2==0)//como hacer para elegir solo los numeros pares
-                {
+                }else if(num<0){
+                            cn++;
+                            sn+=num;
+                        }else if(num==0){
+                                    cc++;
+                                }
+
+		if(num%2==0){
                     par++;
                 }else
                     {
@@ -64,6 +80,8 @@ int main()
     printf("Promedio de negativos: %d\n", pn);
     printf("Promedio de positivos: %d\n", pp);
     printf("Diferencia de promedios: %d\n", dif);
+    printf("El maximo es: %d\n", max);
+    printf("El minimo es: %d", min);
 
     return 0;
 }
