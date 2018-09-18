@@ -1,0 +1,45 @@
+# depslib dependency file v1.0
+1537125667 source:d:\utn\primer cuatrimestre\programacion i\sistemaalumnos\main.c
+	<stdio.h>
+	<stdlib.h>
+	"funciones.h"
+
+1537125041 source:d:\utn\primer cuatrimestre\programacion i\sistemaalumnos\funciones.h
+
+1537125092 source:d:\utn\primer cuatrimestre\programacion i\sistemaalumnos\funciones.c
+	<stdio.h>
+	<stdlib.h>
+	"funciones.h"
+
+1537125041 d:\utn\primer cuatrimestre\programacion i\sistemaalumnos\funciones.h
+
+1537159155 source:c:\users\lucÍa\desktop\material\sistemaalumnos\sistemaalumnos\main.c
+	<stdio.h>
+	<stdlib.h>
+	"funciones.h"
+
+1537159108 c:\users\lucÍa\desktop\material\sistemaalumnos\sistemaalumnos\funciones.h
+
+1537159108 source:c:\users\lucÍa\desktop\material\sistemaalumnos\sistemaalumnos\funciones.h
+
+1537159400 source:c:\users\lucÍa\desktop\material\sistemaalumnos\sistemaalumnos\funciones.c
+	<stdio.h>
+	<stdlib.h>
+	"funciones.h"
+	<string.h>
+
+1537195676 source:d:\clase17-9-18\sistemaalumnos\sistemaalumnos\main.c
+	<stdio.h>
+	<stdlib.h>
+	"funciones.h"
+
+1537195676 d:\clase17-9-18\sistemaalumnos\sistemaalumnos\funciones.h
+
+1537195676 source:d:\clase17-9-18\sistemaalumnos\sistemaalumnos\funciones.h
+
+1537198275 source:d:\clase17-9-18\sistemaalumnos\sistemaalumnos\funciones.c
+	<stdio.h>
+	<stdlib.h>
+	"funciones.h"
+	<string.h>
+
